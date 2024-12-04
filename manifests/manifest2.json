@@ -1,0 +1,96 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://kaladay.github.io/Training202412/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Kevin's Training Manifest",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A collection of two unrelated images.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Creative Commons for one (the flower) and No Copyright / Public Domain (the artwork).",
+  "sequences" : [ {
+    "@id" : "http://47e3b806-9be2-49b0-8a54-5430081ebb9f",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://8f99b69e-f2a8-4a63-9027-f60a182efef6",
+      "@type" : "sc:Canvas",
+      "label" : "Althea Officinalis Flower",
+      "height" : 768,
+      "width" : 1024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://992cf2d9-cfaa-46af-932a-3fae313ddf0f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/2/althea-officinalis-flor%2fAlthea_officinalis_flor.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/2/althea-officinalis-flor%2fAlthea_officinalis_flor.jpg",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 786432,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 768,
+          "width" : 1024
+        },
+        "on" : "http://8f99b69e-f2a8-4a63-9027-f60a182efef6"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://fdb40468-74f1-4ebf-aefc-bc5ee4488d1b",
+      "@type" : "sc:Canvas",
+      "label" : "Berger-Cloonan Artwork #949",
+      "height" : 9569,
+      "width" : 7522,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3daeb568-5995-4b97-bbcd-697be081339d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.library.tamu.edu/iiif/2/95366a55-249b-3904-be1d-1da8c05fcb11",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 71978018,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 9569,
+          "width" : 7522
+        },
+        "on" : "http://fdb40468-74f1-4ebf-aefc-bc5ee4488d1b"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://8f99b69e-f2a8-4a63-9027-f60a182efef6", "http://fdb40468-74f1-4ebf-aefc-bc5ee4488d1b" ]
+  } ]
+}
