@@ -1,0 +1,13 @@
+{
+  "id" : "https://kaladay.github.io/Training202412/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in kaladay/Training202412 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://kaladay.github.io/Training202412/manifests/manifest2.json",
+    "label" : "Kevin's Training Manifest"
+  } ]
+}
