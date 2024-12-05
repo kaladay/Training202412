@@ -1,0 +1,224 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Stamen and Pistol",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Stamen and Pistol</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/35114839",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T16:21:22",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733415682826",
+    "dcterms:modified" : "2024-12-05T16:21:22",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://kaladay.github.io/Training202412/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=553,278,153,128"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M575.0328,296.55104c14.1686,-10.74487 34.15571,-18.74621 54.23968,-18.73665v0v0c20.08397,0.00956 37.58047,7.49468 54.23968,18.73665c16.65921,11.24196 23.13443,28.37255 22.46681,45.23427c-0.66762,16.86172 -8.47808,33.45458 -22.46681,45.23427c-13.98872,11.77969 -34.15571,18.74621 -54.23968,18.73665c-20.08397,-0.00956 -40.08491,-6.9952 -54.23968,-18.73665c-14.15477,-11.74145 -22.46335,-28.23871 -22.46681,-45.23427c-0.00346,-16.99555 8.29821,-34.4894 22.46681,-45.23427z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_aa0ba5a1-11b8-416c-b74f-91d09517a5a7\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8f99b69e-f2a8-4a63-9027-f60a182efef6"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "petal",
+      "@type" : "oa:Tag",
+      "chars" : "petal"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Petal, bottom right.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Petal, bottom right.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/35114839",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T16:23:00",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733415780066",
+    "dcterms:modified" : "2024-12-05T16:23:00",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://kaladay.github.io/Training202412/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=674,345,279,222"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M673.63636,345.45455h139.54545v0h139.54545v111.18182v111.18182h-139.54545h-139.54545v-111.18182z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_f66095a2-c74a-408f-acb3-d5da1c8155ec\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffff00\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8f99b69e-f2a8-4a63-9027-f60a182efef6"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "petal",
+      "@type" : "oa:Tag",
+      "chars" : "petal"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Petal, left.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Petal, left.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/35114839",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T16:23:33",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733415813767",
+    "dcterms:modified" : "2024-12-05T16:23:33",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://kaladay.github.io/Training202412/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=305,207,277,257"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M305.09091,206.72727h138.27273v0h138.27273v128.72727v128.72727h-138.27273h-138.27273v-128.72727z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_66fcf087-e5e9-4264-9ab5-9d9583d56ed6\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffff00\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8f99b69e-f2a8-4a63-9027-f60a182efef6"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "petal",
+      "@type" : "oa:Tag",
+      "chars" : "petal"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Petal, top right.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Petal, top right.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/35114839",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T16:24:19",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733415859112",
+    "dcterms:modified" : "2024-12-05T16:24:19",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://kaladay.github.io/Training202412/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=676,101,225,242"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M901.45455,101.27273h-112.63636v0h-112.63636v121v121h112.63636h112.63636v-121z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_669395b5-635c-444a-9d57-5cc9c36e1bf7\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffff00\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8f99b69e-f2a8-4a63-9027-f60a182efef6"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Petal, bottom left.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Petal, bottom left.</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "petal",
+      "@type" : "oa:Tag",
+      "chars" : "petal"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/35114839",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2024-12-05T16:22:36",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733415756367",
+    "dcterms:modified" : "2024-12-05T16:23:12",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://kaladay.github.io/Training202412/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=449,407,238,221"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M448.90909,406.54545h118.81818v0h118.81818v110.63636v110.63636h-118.81818h-118.81818v-110.63636z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,1,1,0],&quot;editable&quot;:true}\" id=\"rectangle_1a950ee8-61bc-4cfe-af4c-3992df6a04c5\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffff00\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8f99b69e-f2a8-4a63-9027-f60a182efef6"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "petal",
+      "@type" : "oa:Tag",
+      "chars" : "petal"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "petal, top left.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>petal, top left.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/35114839",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2024-12-05T16:23:58",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1733415838552",
+    "dcterms:modified" : "2024-12-05T16:23:58",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://kaladay.github.io/Training202412/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=434,59,240,254"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M674.18182,58.54545h-119.90909v0h-119.90909v126.90909v126.90909h119.90909h119.90909v-126.90909z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_219717cf-5dff-4c4a-bdf8-7e7115432847\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ffff00\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://8f99b69e-f2a8-4a63-9027-f60a182efef6"
+    } ]
+  } ],
+  "@id" : "https://kaladay.github.io/Training202412/annotations/c091a40d949e5e47e1404affd0f33c45.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
