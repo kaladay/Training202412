@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://kaladay.github.io/Training202412/annotations/c091a40d949e5e47e1404affd0f33c45.json" ],
+  "@id" : "https://kaladay.github.io/Training202412/annotations/collection.json",
+  "label" : "All annotations loaded in kaladay/Training202412 project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
